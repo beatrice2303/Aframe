@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="aframe.js" ></script>
+    
+
+</head>
+<body>
+    
+    <a-scene>
+    <a-asserts>
+        <img src="A-FrameResources/textures/AmbientOcclusionMap.jpg" id="bricks" alt="">
+        <img src="A-FrameResources/textures/TexturesCom_BrickRound0046_1_seamless_S.jpg" id="MetalPlate" alt="">
+    </a-asserts>
+    
+    <a-box 
+    color="white"
+    src= #bricks
+    width="4" 
+    height="4"
+    position="-1  1.5 -9" 
+    depth="4"
+    scale="1 1 1">
+    
+    </a-box>
+
+    <a-box 
+    
+    color="brown"
+     src=#MetalPlate
+     width="5" 
+     position="-6 1.5 -9" 
+     height="4" 
+
+     depth="4">
+    </a-box>
+    
+   
+</a-scene>
+</body>
+</html>
